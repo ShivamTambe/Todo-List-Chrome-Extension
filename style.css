@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 500px;
+    color: white;
+    background-color: black;
+    margin-bottom: 50px;
+    height: 500px;
+}
+button{
+    padding: 16px 14px;
+    width: 100px;
+    background: #607D8B;
+    color: white;
+    cursor: pointer;
+}
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#result{
+    display: none;
+}
+textarea{
+    background-color: black;
+    color: white;
+}
+textarea::-webkit-scrollbar {
+    width: 1px;
+}
+.tasks{
+    display: flex;
+    gap: 20px;
+}
+.tasks input{
+    width: 200px;
+}
+.done{
+    position: absolute;
+    bottom: 10px;
+}
+.task{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.task input{
+    width: 20px;
+    height: 20px;
+}
+h2{
+    color: antiquewhite;
+}
